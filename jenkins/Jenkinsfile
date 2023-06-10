@@ -20,6 +20,7 @@ pipeline {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
+        }
         stage('complet') {
             steps {
                 echo "this complet stage"
