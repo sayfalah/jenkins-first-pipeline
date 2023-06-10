@@ -26,5 +26,10 @@ pipeline {
                 echo "this complet stage"
             }
         }
+        stage('test') {
+            steps {
+                echo "this complet stage"
+            }
+        }
     }
 }
